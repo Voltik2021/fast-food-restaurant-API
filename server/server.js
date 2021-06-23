@@ -14,22 +14,22 @@ let arrCategory = [
 ]
 
 let products = [
-    { id: 1, name: 'Бургер', price: 100, delivery: true, img: './src/img/burger.png' },
+    { id: 1, name: 'Бургер', price: 100, delivery: false, img: './src/img/burger.png' },
     { id: 2, name: 'Бургер', price: 100, delivery: true, img: './src/img/newBurger.png' },
-    { id: 3, name: 'Бургер', price: 100, delivery: true, img: './src/img/newBurger.png' },
-    { id: 4, name: 'Бургер', price: 100, delivery: true, img: './src/img/hitBurger.png' },
+    { id: 3, name: 'Бургер', price: 100, delivery: false, img: './src/img/newBurger.png' },
+    { id: 4, name: 'Бургер', price: 100, delivery: false, img: './src/img/hitBurger.png' },
     { id: 5, name: 'Бургер', price: 100, delivery: true, img: './src/img/hitBurger.png' },
     { id: 6, name: 'Бургер', price: 100, delivery: true, img: './src/img/burger.png' },
-    { id: 7, name: 'Твистер', price: 100, delivery: true, img: './src/img/hitTwister.png' },
+    { id: 7, name: 'Твистер', price: 100, delivery: false, img: './src/img/hitTwister.png' },
     { id: 8, name: 'Твистер', price: 100, delivery: true, img: './src/img/newTwister.png' },
-    { id: 9, name: 'Твистер', price: 100, delivery: true, img: './src/img/twister.png' },
+    { id: 9, name: 'Твистер', price: 100, delivery: false, img: './src/img/twister.png' },
     { id: 10, name: 'Твистер', price: 100, delivery: true, img: './src/img/twister.png' },
     { id: 11, name: 'Твистер', price: 100, delivery: true, img: './src/img/twister.png' },
-    { id: 12, name: 'Твистер', price: 100, delivery: true, img: './src/img/twister.png' },
+    { id: 12, name: 'Твистер', price: 100, delivery: false, img: './src/img/twister.png' },
     { id: 13, name: 'Курица', price: 100, delivery: true, img: './src/img/newСhicken.png' },
-    { id: 14, name: 'Курица', price: 100, delivery: true, img: './src/img/hitСhicken.png' },
+    { id: 14, name: 'Курица', price: 100, delivery: false, img: './src/img/hitСhicken.png' },
     { id: 15, name: 'Курица', price: 100, delivery: true, img: './src/img/newСhicken.png' },
-    { id: 16, name: 'Курица', price: 100, delivery: true, img: './src/img/hitСhicken.png' },
+    { id: 16, name: 'Курица', price: 100, delivery: false, img: './src/img/hitСhicken.png' },
     { id: 17, name: 'Курица', price: 100, delivery: true, img: './src/img/chicken.png' },
     { id: 18, name: 'Курица', price: 100, delivery: true, img: './src/img/chicken.png' }   
 ]
@@ -48,6 +48,7 @@ app.get('/getProduct', (req, res) => {
 
 app.post('/order', (req, res) => {
     let order = req.body
+    console.log(req.body)
     orders.push(order)
     res.status(200).json(order)
 })
