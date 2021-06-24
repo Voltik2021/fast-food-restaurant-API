@@ -6,11 +6,11 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 let arrCategory = [
-    { id: 1, name: 'Бургеры', products: [1, 2, 3, 4, 5, 6] },
-    { id: 2, name: 'Твистеры', products: [7, 8, 9, 10, 11, 12] },
-    { id: 3, name: 'Курица', products: [13, 14, 15, 16, 17, 18] },
-    { id: 4, name: 'Хиты', products: [4, 5, 7, 14, 16] },
-    { id: 5, name: 'Новое', products: [2, 3, 8, 13, 15] }
+    { id: '1c', name: 'Бургеры', products: [1, 2, 3, 4, 5, 6] },
+    { id: '2c', name: 'Твистеры', products: [7, 8, 9, 10, 11, 12] },
+    { id: '3c', name: 'Курица', products: [13, 14, 15, 16, 17, 18] },
+    { id: '4c', name: 'Хиты', products: [4, 5, 7, 14, 16] },
+    { id: '5c', name: 'Новое', products: [2, 3, 8, 13, 15] }
 ]
 
 let products = [
@@ -48,7 +48,8 @@ app.get('/getProduct', (req, res) => {
 
 app.post('/order', (req, res) => {
     let order = req.body
-    console.log(req.body)
+    order.id = orders.length + 1    
+    console.log(order)
     orders.push(order)
     res.status(200).json(order)
 })
