@@ -14,24 +14,24 @@ let arrCategory = [
 ]
 
 let products = [
-    { id: 1, name: 'Бургер', price: 100, delivery: false, img: './src/img/burger.png' },
-    { id: 2, name: 'Бургер', price: 100, delivery: true, img: './src/img/newBurger.png' },
-    { id: 3, name: 'Бургер', price: 100, delivery: false, img: './src/img/newBurger.png' },
-    { id: 4, name: 'Бургер', price: 100, delivery: false, img: './src/img/hitBurger.png' },
-    { id: 5, name: 'Бургер', price: 100, delivery: true, img: './src/img/hitBurger.png' },
-    { id: 6, name: 'Бургер', price: 100, delivery: true, img: './src/img/burger.png' },
-    { id: 7, name: 'Твистер', price: 100, delivery: false, img: './src/img/hitTwister.png' },
-    { id: 8, name: 'Твистер', price: 100, delivery: true, img: './src/img/newTwister.png' },
-    { id: 9, name: 'Твистер', price: 100, delivery: false, img: './src/img/twister.png' },
-    { id: 10, name: 'Твистер', price: 100, delivery: true, img: './src/img/twister.png' },
-    { id: 11, name: 'Твистер', price: 100, delivery: true, img: './src/img/twister.png' },
-    { id: 12, name: 'Твистер', price: 100, delivery: false, img: './src/img/twister.png' },
-    { id: 13, name: 'Курица', price: 100, delivery: true, img: './src/img/newСhicken.png' },
-    { id: 14, name: 'Курица', price: 100, delivery: false, img: './src/img/hitСhicken.png' },
-    { id: 15, name: 'Курица', price: 100, delivery: true, img: './src/img/newСhicken.png' },
-    { id: 16, name: 'Курица', price: 100, delivery: false, img: './src/img/hitСhicken.png' },
-    { id: 17, name: 'Курица', price: 100, delivery: true, img: './src/img/chicken.png' },
-    { id: 18, name: 'Курица', price: 100, delivery: true, img: './src/img/chicken.png' }   
+    { id: 1, name: 'Бургер', price: 100, delivery: false, img: 'https://disk.yandex.ru/i/qR820PYnJQXWTw' },
+    { id: 2, name: 'Бургер', price: 100, delivery: true, img: 'https://disk.yandex.ru/i/gVQVEMq4HEqPRA' },
+    { id: 3, name: 'Бургер', price: 100, delivery: false, img: 'https://disk.yandex.ru/i/gVQVEMq4HEqPRA'},
+    { id: 4, name: 'Бургер', price: 100, delivery: false, img: 'https://disk.yandex.ru/i/u1iw7OYI7r61-g' },
+    { id: 5, name: 'Бургер', price: 100, delivery: true, img: 'https://disk.yandex.ru/i/u1iw7OYI7r61-g' },
+    { id: 6, name: 'Бургер', price: 100, delivery: true, img: 'https://disk.yandex.ru/i/qR820PYnJQXWTw' },
+    { id: 7, name: 'Твистер', price: 100, delivery: false, img: 'https://disk.yandex.ru/i/-KO7mh5PXnel4A' },
+    { id: 8, name: 'Твистер', price: 100, delivery: true, img: 'https://disk.yandex.ru/i/KMgIZL4DG7YlnQ' },
+    { id: 9, name: 'Твистер', price: 100, delivery: false, img: 'https://disk.yandex.ru/i/rvpkPUPUhjdQNQ' },
+    { id: 10, name: 'Твистер', price: 100, delivery: true, img: 'https://disk.yandex.ru/i/rvpkPUPUhjdQNQ' },
+    { id: 11, name: 'Твистер', price: 100, delivery: true, img: 'https://disk.yandex.ru/i/rvpkPUPUhjdQNQ' },
+    { id: 12, name: 'Твистер', price: 100, delivery: false, img: 'https://disk.yandex.ru/i/rvpkPUPUhjdQNQ' },
+    { id: 13, name: 'Курица', price: 100, delivery: true, img: 'https://disk.yandex.ru/i/5JPNoTmZGjNkiw' },
+    { id: 14, name: 'Курица', price: 100, delivery: false, img: 'https://disk.yandex.ru/i/WwhaOGfOph7YFg' },
+    { id: 15, name: 'Курица', price: 100, delivery: true, img: 'https://disk.yandex.ru/i/5JPNoTmZGjNkiw' },
+    { id: 16, name: 'Курица', price: 100, delivery: false, img: 'https://disk.yandex.ru/i/WwhaOGfOph7YFg' },
+    { id: 17, name: 'Курица', price: 100, delivery: true, img: 'https://disk.yandex.ru/i/Dh7v9P73L-8oCA'},
+    { id: 18, name: 'Курица', price: 100, delivery: true, img: 'https://disk.yandex.ru/i/Dh7v9P73L-8oCA' }   
 ]
 
 let orders = []
