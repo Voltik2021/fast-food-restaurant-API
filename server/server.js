@@ -27,10 +27,10 @@ let products = [
     { id: 10, name: 'Твистер', price: 100, delivery: true, img: 'https://api-test-fast-food-store.herokuapp.com/static/img/twister.png' },
     { id: 11, name: 'Твистер', price: 100, delivery: true, img: 'https://api-test-fast-food-store.herokuapp.com/static/img/twister.png' },
     { id: 12, name: 'Твистер', price: 100, delivery: false, img: 'https://api-test-fast-food-store.herokuapp.com/static/img/twister.png' },
-    { id: 13, name: 'Курица', price: 100, delivery: true, img: 'https://api-test-fast-food-store.herokuapp.com/static/img/newChicken.png' },
-    { id: 14, name: 'Курица', price: 100, delivery: false, img: 'https://api-test-fast-food-store.herokuapp.com/static/img/hitChicken.png' },
-    { id: 15, name: 'Курица', price: 100, delivery: true, img: 'https://api-test-fast-food-store.herokuapp.com/static/img/newChicken.png' },
-    { id: 16, name: 'Курица', price: 100, delivery: false, img: 'https://api-test-fast-food-store.herokuapp.com/static/img/hitChicken.png' },
+    { id: 13, name: 'Курица', price: 100, delivery: true, img: 'https://api-test-fast-food-store.herokuapp.com/static/img/newСhicken.png' },
+    { id: 14, name: 'Курица', price: 100, delivery: false, img: 'https://api-test-fast-food-store.herokuapp.com/static/img/hitСhicken.png' },
+    { id: 15, name: 'Курица', price: 100, delivery: true, img: 'https://api-test-fast-food-store.herokuapp.com/static/img/newСhicken.png' },
+    { id: 16, name: 'Курица', price: 100, delivery: false, img: 'https://api-test-fast-food-store.herokuapp.com/static/img/hitСhicken.png' },
     { id: 17, name: 'Курица', price: 100, delivery: true, img: 'https://api-test-fast-food-store.herokuapp.com/static/img/chicken.png' },
     { id: 18, name: 'Курица', price: 100, delivery: true, img: 'https://api-test-fast-food-store.herokuapp.com/static/img/chicken.png' }   
 ]
